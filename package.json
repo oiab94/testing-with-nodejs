@@ -1,0 +1,24 @@
+{
+  "name": "00-testing-with-nodejs-test-runner",
+  "version": "0.0.1",
+  "description": "Testing utilizando Nodejs-Test-Runner",
+  "main": "index.js",
+  "engines": {
+    "node": "20.19.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts",
+    "lint": "echo ERROR: \"no lint specified\"",
+    "test": "echo ERROR: \"no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "oiab94",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
